@@ -1,0 +1,205 @@
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #160b22, #401044, #100b18);
+  font-family: Arial, sans-serif;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 35px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+}
+
+.login-logo {
+  color: #e50914;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.login-card h2 {
+  text-align: center;
+  color: #222222;
+  margin-bottom: 10px;
+}
+
+.login-subtitle {
+  text-align: center;
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.login-card label {
+  display: block;
+  margin: 15px 0 8px;
+  color: #333333;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+.login-card input:focus {
+  border-color: #e50914;
+  box-shadow: 0 0 4px rgba(229, 9, 20, 0.3);
+}
+
+.login-button {
+  width: 100%;
+  padding: 13px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 8px;
+  background: #e50914;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background: #b80710;
+}
+
+.login-footer {
+  margin-top: 22px;
+  margin-bottom: 0;
+  text-align: center;
+  color: #777777;
+  font-size: 12px;
+}
+
+
+.mobile-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mobile-input span {
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.mobile-input input {
+  flex: 1;
+  min-width: 0;
+}
+
+.login-button:disabled,
+.resend-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.resend-button {
+  display: block;
+  margin: 15px auto 0;
+  padding: 8px;
+  border: none;
+  background: transparent;
+  color: #e50914;
+  cursor: pointer;
+}
+
+.login-message {
+  margin-top: 16px;
+  text-align: center;
+  color: #b80710;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+
+/* Sign up, login and password-reset additions */
+
+.login-card label {
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.login-card input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.login-card input:focus {
+  outline: 2px solid #e50914;
+  outline-offset: 1px;
+}
+
+.login-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.auth-switch {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.auth-switch button {
+  border: none;
+  background: transparent;
+  color: #e50914;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reset-email {
+  overflow-wrap: anywhere;
+  font-size: 14px;
+}
+
+.login-message {
+  overflow-wrap: anywhere;
+  text-align: center;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+.success-message {
+  color: #16803c;
+}
+
+.resend-button {
+  display: block;
+  margin: 8px 0 14px auto;
+  padding: 4px 0;
+  border: none;
+  background: transparent;
+  color: #e50914;
+  cursor: pointer;
+}
